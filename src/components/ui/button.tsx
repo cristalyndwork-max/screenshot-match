@@ -9,6 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        appointment: "bg-primary text-primary-foreground hover:bg-deep-teal rounded-sm h-12 px-6 text-xs font-semibold gap-6",
+        quiet: "text-foreground hover:text-primary rounded-sm h-12 px-2 text-xs gap-3",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

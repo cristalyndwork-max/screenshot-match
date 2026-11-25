@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Funnel architecture
+- Keep the single-page funnel at `/` with section anchors for its sequential journey; navigation must not create duplicate content pages.
+- Use original website media through imported Lovable asset pointers; this preserves the source imagery without external hotlinks.
+- Use the shared Button and Accordion controls and global semantic design tokens; this keeps funnel interactions and presentation consistent.
+- Do not simulate an appointment submission when no real booking destination is configured; retain the source's availability notice to avoid misleading visitors.
